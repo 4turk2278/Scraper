@@ -1,6 +1,15 @@
 # Deep Web Scraper
 
-Deep Web Scraper is a robust, local-first intelligence application designed to search the Dark Web and analyze intelligence data using various Large Language Models (LLMs). It provides a sleek web-based dashboard and a secure Admin Panel for managing users and history.
+Deep Web Scraper is an advanced, local-first Open Source Intelligence (OSINT) application engineered specifically for accessing and analyzing data from the Dark Web. Built for cybersecurity researchers, threat intelligence analysts, and privacy advocates, it seamlessly bridges the gap between secure Tor network scraping and cutting-edge Large Language Models (LLMs).
+
+By routing searches entirely through the local system's Tor proxy, Deep Web Scraper guarantees absolute operational security while preventing the leakage of search intents. It features a stunning, cyber-themed React dashboard for issuing trace commands, alongside a highly secure Admin Panel for user and audit log management.
+
+### ✨ Key Features
+- **Tor Network Integration**: Scrape `.onion` domains securely via local SOCKS5 proxy routing.
+- **LLM-Powered Analysis**: Connects with OpenAI, Anthropic, Gemini, Groq, and Ollama to automatically ingest, summarize, and extract actionable intelligence from unstructured dark web HTML.
+- **Local-First Architecture**: 100% of your data stays on your machine. No cloud databases, no telemetry, and zero third-party tracking.
+- **Secure Admin Panel**: Built-in SQLite database with hashed credentials, allowing administrators to audit historical search logs and purge user data.
+- **Cyberpunk UI/UX**: An immersive, highly-responsive terminal aesthetic built with React and Vite.
 
 ### 🛠️ Built With
 * **Frontend**: React (v18.2.0), Vite (v5.0.0), Lucide Icons (v0.294.0)
