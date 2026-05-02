@@ -16,12 +16,14 @@ Scraper is a robust, local-first intelligence application designed to search the
 Here is a glimpse of the Scraper UI in action:
 
 <p align="center">
-  <img src="screenshots/dashboard.png" width="48%" alt="Dashboard" />
-  <img src="screenshots/admin_panel.png" width="48%" alt="Admin Panel" />
+  <img src="screenshots/screenshot_1.png" width="32%" alt="Screenshot 1" />
+  <img src="screenshots/screenshot_2.png" width="32%" alt="Screenshot 2" />
+  <img src="screenshots/screenshot_3.png" width="32%" alt="Screenshot 3" />
 </p>
 <p align="center">
-  <img src="screenshots/login.png" width="48%" alt="Login Screen" />
-  <img src="screenshots/admin_action.png" width="48%" alt="Admin Actions" />
+  <img src="screenshots/screenshot_4.png" width="32%" alt="Screenshot 4" />
+  <img src="screenshots/screenshot_5.png" width="32%" alt="Screenshot 5" />
+  <img src="screenshots/screenshot_6.png" width="32%" alt="Screenshot 6" />
 </p>
 
 ---
