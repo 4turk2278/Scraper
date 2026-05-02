@@ -89,30 +89,6 @@ Upon first launch, the database (`storage.db`) is automatically created with a d
 
 ---
 
-## ❓ Frequently Asked Questions (FAQ)
-
-### 1. I am getting an "Unsupported LLM model" error.
-**Answer:** This happens if the model name stored in your database or selected in the UI does not have its corresponding API key set in the `.env` file. 
-- Open the `.env` file and make sure the key (e.g., `OPENAI_API_KEY`, `GROQ_API_KEY`) is populated.
-- Restart the backend.
-
-### 2. The Application says "Backend Connection Error" or is not loading.
-**Answer:** This means the FastAPI Python backend isn't running on port `8501`. 
-- Ensure you have installed the requirements.
-- Check your terminal output for any syntax errors or missing modules.
-- Ensure no other application is currently using port `8501`. 
-
-### 3. I see an "Unexpected Indentation" or "Parse Error" in my IDE on `llm.py`.
-**Answer:** This is a false positive from some IDE linters! The application uses large, multi-line string variables (using `"""`) for the AI's system prompts. Some code editors incorrectly try to read these English instructions as if they were Python code. You can completely ignore these visual warnings. Do not modify the text to "fix" the indentation, as it might break the AI prompts.
-
-### 4. Why can't I see search results from the Dark Web?
-**Answer:** The scraper tool requires Tor to access `.onion` links. If Tor is not running natively on your machine, or is blocked by your ISP, the scraper will fail to fetch pages and return empty summaries.
-
-### 5. I submitted Feedback in the dashboard, who receives it?
-**Answer:** Feedback, bug reports, and feature requests submitted through the UI are sent directly to the local **Admin Panel** of the instance you are running. They are **not** sent to the original developer of the project on GitHub. If you find a bug in the source code, please open an Issue on the GitHub repository instead.
-
----
-
 ## 📄 License
 
 This project is open-source and licensed under the [GNU General Public License v3.0 (GPLv3)](LICENSE). You are free to use, modify, and distribute this software, provided that any modifications or derivative works are also distributed under the same open-source GPLv3 license.
