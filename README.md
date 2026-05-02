@@ -1,6 +1,6 @@
-# Scraper
+# Deep Web Scraper
 
-Scraper is a robust, local-first intelligence application designed to search the Dark Web and analyze intelligence data using various Large Language Models (LLMs). It provides a sleek web-based dashboard and a secure Admin Panel for managing users and history.
+Deep Web Scraper is a robust, local-first intelligence application designed to search the Dark Web and analyze intelligence data using various Large Language Models (LLMs). It provides a sleek web-based dashboard and a secure Admin Panel for managing users and history.
 
 ### 🛠️ Built With
 * **Frontend**: React (v18.2.0), Vite (v5.0.0), Lucide Icons (v0.294.0)
